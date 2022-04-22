@@ -6,7 +6,7 @@ function weeklyWage(band, weeklyHours) {
 
         var current = band[i]
 
-        if(weeklyHours == band){
+        if(weeklyHours > 6){
             return 483
         }
         else if(weeklyHours == band){
@@ -19,7 +19,7 @@ function weeklyWage(band, weeklyHours) {
             return 'missing day'
         }
         else if(weeklyHours != band) {
-            return 'missing day'
+            return 0
         }
     }
 }
