@@ -1,0 +1,196 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.maincontainer{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items:center ;
+
+
+   
+
+}
+.first{
+
+    text-align: center;
+    font-size: 20px;
+}
+.first h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.second{
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: justify ;
+  
+}
+
+.snowey h3{
+    margin-left: 100px;
+}
+.snowey img{
+  float: left;
+  
+}
+
+.snowey{
+   margin-left: 10px;
+}
+
+.paws h3{
+    margin-left: 100px;
+}
+.paws{
+    margin-left: 30px;
+   
+}
+.paws img{
+    margin-left: 20px;
+    float: left;
+}
+.patsie{
+    margin-left: 30px;
+   
+   
+}
+.h2{
+  margin-left: auto;
+  margin-right: auto;
+}
+.patsie h3{
+    margin-left: 100px;
+}
+.patsie img{
+  float: left;
+}
+
+
+.cat img {
+    float: right;
+    margin-right: 50px;
+}
+.cat h3{
+    text-align: center;
+}
+.days img{
+float:right
+}
+.day h3{
+    text-align: center;
+}
+  .events{
+      display: flex;
+  }
+  .upgcoming{
+      margin-left: auto;
+      margin-right: auto;
+  }
+.about-us
+{
+    padding-top: 70px;
+}
+.about h2{
+    text-align: center;
+}
+
+@media screen and (max-width:700px){
+    .second{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify ;
+       
+     }
+     
+     .snowey h3{
+         margin-left: 100px;
+     }
+     .snowey img{
+       float: left;
+       margin-right: 10px;
+       width: 100px;
+       
+     }
+     
+     .snowey{
+        margin-left: 10px;
+     }
+     
+     .paws h3{
+         margin-left: 100px;
+     }
+     .paws{
+         margin-left: 30px;
+        
+     }
+     .paws img{
+       width: 100px;
+         float: left;
+         margin-right: 10px;
+     }
+    
+     .patsie{
+         margin-left: 30px;
+        
+        
+        
+     }
+     .patsie h3{
+         margin-left: 100px;
+     }
+     .patsie img{
+       float: left;
+       width: 150px;
+       /* margin-left: px; */
+     } 
+     .patsie p{
+         width: 200px;
+         margin-left: 10px;
+     }
+    .cat img {
+    float: right;
+    margin-right: 50px;
+}
+.cat h3{
+    text-align: center;
+}
+.days img{
+float:right
+}
+
+.day h3{
+    text-align: center;
+}
+  .events{
+      display: flex;
+  }
+  .upgcoming{
+      margin-left: auto;
+      margin-right: auto;
+  }
+.about-us
+{
+    padding-top: 70px;
+}
+.about h2{
+    text-align: center;
+}
+.first p{
+
+    text-align: center;
+    font-size: 20px;
+}
+.day p{
+    margin-left: 50px;
+}
+}
